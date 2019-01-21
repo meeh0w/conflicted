@@ -1,0 +1,30 @@
+{
+  "name": "conflicted",
+  "version": "0.1.0",
+  "description": "Lets you check whether or not two given branches in your project would produce a conflict when attempting a merge or rebase",
+  "main": "index.js",
+  "scripts": {},
+  "bin": {
+    "conflicted": "./bin/conflicted.js",
+    "mergable": "./bin/mergable.js"
+  },
+  "engines": {
+    "node": ">=6.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meeh0w/conflicted.git"
+  },
+  "keywords": [
+    "git",
+    "conflict",
+    "detect",
+    "branch"
+  ],
+  "author": "Michał Leszczyk <michasko37@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meeh0w/conflicted/issues"
+  },
+  "homepage": "https://github.com/meeh0w/conflicted#readme"
+}
